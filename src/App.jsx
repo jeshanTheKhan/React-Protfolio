@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar.jsx'
+import Hero from './components/hero.jsx'
 
 function App() {
  
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
   <Navbar/>
+  <Hero/>
 
     </>
   )
