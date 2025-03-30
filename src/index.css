@@ -1,0 +1,34 @@
+
+  .word-animate {
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+
+  .word-animate:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+
+  .word-animate:nth-child(2) {
+    animation-delay: 1s;
+  }
+
+  .word-animate:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+
+  .word-animate:nth-child(4) {
+    animation-delay: 2s;
+  }
+
+  .word-animate:nth-child(5) {
+    animation-delay: 2.5s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
