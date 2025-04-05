@@ -10,7 +10,7 @@ const hero = () => {
             src={img1}
             className="rounded-lg shadow-2xl md:w-[600px] md:h-[600px]" 
           />
-          <div>
+          <div className="pl-5 md:pl-0">
             <h1 className="text-5xl font-bold">Md.Jeshan Khan</h1>
             <h1 className="text-2xl py-5 font-bold text-[#179800]">Full Stack Developer </h1>
             <p className="py-3">

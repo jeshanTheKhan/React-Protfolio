@@ -1,9 +1,10 @@
 import React from 'react';
 
-const service = () => {
+const projects = () => {
     return (
         <>
-        <h1 className='mx-30 py-5 text-2xl text-[#179800]'>Services</h1>
+             <>
+        <h1 className='mx-30 py-5 text-2xl text-[#179800]'>Projects</h1>
             <div className="mx-30 mt-7 grid md:grid-cols-3 gap-5">
               
             <div className="card bg-base-100 w-96 shadow-sm">
@@ -63,8 +64,9 @@ const service = () => {
   </div>
 </div>
             </div>
+        </> 
         </>
     );
 };
 
-export default service;
+export default projects;
